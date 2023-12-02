@@ -2,13 +2,11 @@
 Pretty much a site where you replace the URL for Boomlings, and my server makes the request with a proxy.
 Idealy used to bypass CloudFlare.
 
-Website: https://gdrequest.xytriza.com/
-
 Nginx config (used to rewrite requests):
 ```nginx
 server {
     listen 80;
-    server_name gdrequest.xytriza.com;
+    server_name example.com;
 
     location / {
         include fastcgi_params;

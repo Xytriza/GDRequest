@@ -24,4 +24,4 @@ server {
 }
 ```
 
-To enable Proxy, configure it in forwardRequest.php at line 17 and 18. Also remove double slashes to enable it.
+To enable Proxy, configure it in forwardRequest.php at line 16 and 17. Also remove double slashes to enable it.
